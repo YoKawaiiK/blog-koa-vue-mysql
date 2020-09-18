@@ -46,4 +46,3 @@ Purpose of creation:
 ## Other
 - In directory ./client are all sources frontend.
 - In directory ./screenshots are screenshot a working blog.
-# blog-koa-vue-mysql
