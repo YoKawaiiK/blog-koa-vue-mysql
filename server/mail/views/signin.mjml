@@ -1,0 +1,48 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Roboto"/>
+    <mj-preview>Регистрация на сервисе.</mj-preview>
+    <mj-title>Регистрация</mj-title>
+  </mj-head>
+  <mj-body>
+    <mj-section>
+      <mj-column>
+        <mj-text align="center">
+          <h1>Здраствуйте! Это письмо отправлено для потверждения регистрации.</h1>
+        </mj-text>
+
+        <mj-divider border-width="1px" border-style="dashed" border-color="lightgrey"/>
+        
+        <mj-text>
+          Войти в Ваш аккаунт Вы сможете сразу после потверждения почты.
+      	</mj-text>
+
+        <mj-text>
+          <h2>Данные для входа:</h2>
+        </mj-text>
+        <mj-text>
+          Логин: {{login}}
+        </mj-text>
+        <mj-text>
+          Пароль: {{password}}
+        </mj-text>
+
+
+        <mj-divider border-width="1px" border-style="dashed" border-color="lightgrey"/>
+        
+        <mj-text>
+          Вы должны потвердить почту в течении {{expiresInMinute}} минут.
+        </mj-text>
+
+        <mj-divider border-width="1px" border-style="dashed" border-color="lightgrey"/>
+        
+        <mj-button href="{{link}}" align="center">
+          <mj-text align="center">
+            Потвердить
+        	</mj-text>
+        </mj-button>
+      	
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

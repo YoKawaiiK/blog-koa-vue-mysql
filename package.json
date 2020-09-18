@@ -1,0 +1,22 @@
+{
+  "name": "blog-koa-vue-mysql",
+  "version": "1.0.0",
+  "description": "Home project for learn backend with node.js and Koa.js, on frontend vue SPA and DB NySQL.",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd server && npm run serve",
+    "server_install": "cd server && npm i",
+    "client_compile": "cd client && npm init && npm run build",
+    "server_dev": "cd server && npm run serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YoKawaiiK/blog-koa-vue-mysql.git"
+  },
+  "author": "YoKawaiiK",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YoKawaiiK/blog-koa-vue-mysql/issues"
+  },
+  "homepage": "https://github.com/YoKawaiiK/blog-koa-vue-mysql#readme"
+}
